@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: frontend-service
+          uri: lb://frontend-service
+          predicates:
+            - Path=/frontend/**
+          filters:
+            - RewritePath=/frontend/(?<path>.*), /$\{path}
+        - id: backend-service
+          uri: lb://backend-service
+          predicates:
+            - Path=/backend/**
+          filters:
+            - RewritePath=/backend/(?<path>.*), /$\{path}
