@@ -8,8 +8,10 @@ Spring Cloud Greenwich After Spring Cloud Netflix
 
 ## Features
 
-- feature:1
-- feature:2
+- Consul: Distrubuted Configuration
+- Consul: Service Register to Discovery
+- Consul: Service Discovery
+- SC Loadbalancer: Gateway in front of Backend Service
 
 ## Requirement
 
