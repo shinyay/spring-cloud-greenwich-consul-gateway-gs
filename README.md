@@ -1,6 +1,6 @@
-# Name
+# Spring Clound Greenwich with Consul - Gateway Service
 
-Overview
+Spring Cloud Greenwich After Spring Cloud Netflix
 
 ## Description
 
