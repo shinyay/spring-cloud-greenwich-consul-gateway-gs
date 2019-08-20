@@ -4,6 +4,12 @@ Spring Cloud Greenwich After Spring Cloud Netflix
 
 ## Description
 
+[gateway-service] -> [frontend-service] -> [backend-service]
+
+- [gateway-service](https://github.com/shinyay/spring-cloud-greenwich-consul-gateway-gs)
+- [frontend-service](https://github.com/shinyay/spring-cloud-greenwich-consul-frontend-gs)
+- [backend-service](https://github.com/shinyay/spring-cloud-greenwich-consul-backend-gs)
+
 ## Demo
 
 ## Features
